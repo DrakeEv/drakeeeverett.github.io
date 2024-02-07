@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 1000;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    color: #643843;
+    font-size: 100px;
+    font-family: "Sacramento", cursive;
+}
+h2{
+    margin: 0;
+    text-align: center;
+    color: #643843;
+    font-size: 40px;
+}
+h3{
+    margin: 0;
+    text-align: center;
+    color: #FDF0D1;
+    font-family: "Roboto Slab", serif;
+    font-size: 22px;
+
+}
+h4{
+    margin: 0;
+    text-align: center;
+    color: #FDF0D1;
+    font-family: "Roboto Slab", serif;
+    font-size: 48px;
+}
+h5{
+    margin: 0;
+    text-align: center;
+    color: #FDF0D1;
+    font-size: 32px;
+    font-family: "Roboto Slab", serif;
+
+}
+.top-block{
+    margin: 0;
+    background-color: #FDF0D1;
+    height: 800px;
+
+}
+.top-block-text{
+    margin: 0;
+    text-align: center;
+}
+.top-cloud{
+    width: auto;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.bottom-cloud{
+    width: auto;
+    height: 200px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.Drake-pfp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+.pfp-description{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    font-size: 22px;
+}
+.Second-block{
+    background-color: #85586F;
+}
+hr{
+    border: none;
+    border-top: 4px dotted #FDF0D1; /* Change the color as needed */
+    width: 30%; /* Adjust the width as needed */
+    margin: 50px auto; /* Center the <hr> and adjust margin as needed */
+    border-radius: 50%; /* Make the dots circular */
+}
+.column-container {
+    display: flex;
+    justify-content: center;
+    background-color: #85586F;
+  }
+
+  .column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #85586F;
+    box-sizing: border-box;
+    background-color: #85586F;
+    text-align: center;
+
+  }
+.pars{
+    color: #FDF0D1;
+    font-family: "Roboto Slab", serif;
+
+}
+ul{
+    color: #FDF0D1;
+
+}
+li{
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    text-align: left;
+
+}
+.centered-div{
+    display: flex; 
+    justify-content: center;
+}
+.Third-Block{
+    background-color: #FDF0D1;
+
+}
+.How-to-Contact{
+    color: #85586F;
+}
+.Email{
+    color: #85586F;
+}
