@@ -1,19 +1,164 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>My Web Page</title>
-<meta charset="UTF-8">  
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles.css">
-<script src="script.js"></script>   
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drake Everett | IT & Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-<h1>Welcome to My Web Page</h1>
-<p>This is a simple HTML page.</p>
-<p>Today is 8.27.2025 When I'm writing this and I'm hoping to get a hang of version control with Github.</p>
-<p>Now it's 9.7.2025 and I'm testing adding another one. Confused right now because I'm trying to just update this project but am still getting used to git controls.</p>
-<p>It's 10/23/2025. Going to make another quick push and probably make some big jumps to the site from here. Wanna implement some of my favorite learning tools like a pomodoro timer.</p>
-<p>It's 10/27, I thought I added a bunch of jumps but it's back to being this. Doesn't matter bc I didn't do much just copy/paste something from Chat GPT. Maybe I'll find something on Github to copy this time.</p>
-</body>
 
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Drake Everett</h1>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">IT Support • Networking • Cybersecurity</p>
+        <h2>Computer Science graduate building practical skills in IT and cybersecurity.</h2>
+        <p>
+          I’m Drake Everett, an aspiring IT professional from Harlingen, Texas.
+          I enjoy troubleshooting systems, building PCs, working with Linux,
+          learning networking, and developing technical projects.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I have a background in Computer Science, hands-on hardware experience,
+        and a growing focus on IT support, networking, and cybersecurity.
+        My goal is to build a strong technical career where I can solve real
+        problems, support users, secure systems, and keep improving every day.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+
+      <div class="card-grid">
+        <div class="card">
+          <h3>IT Support</h3>
+          <ul>
+            <li>Windows troubleshooting</li>
+            <li>Hardware diagnostics</li>
+            <li>PC building</li>
+            <li>User support</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Networking</h3>
+          <ul>
+            <li>TCP/IP</li>
+            <li>DNS, DHCP, NAT</li>
+            <li>Wireshark</li>
+            <li>Basic routing</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Cybersecurity</h3>
+          <ul>
+            <li>Linux firewall labs</li>
+            <li>Packet analysis</li>
+            <li>Security fundamentals</li>
+            <li>CompTIA certification path</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Development</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="card-grid">
+        <div class="card project-card">
+          <h3>PC Build & Troubleshooting Lab</h3>
+          <p>
+            Built and configured desktop systems, installed hardware,
+            monitored temperatures, and troubleshot performance issues.
+          </p>
+        </div>
+
+        <div class="card project-card">
+          <h3>Cybersecurity Network Labs</h3>
+          <p>
+            Practiced packet sniffing, spoofing, firewall rules, TCP/IP attacks,
+            DNS analysis, and Linux networking tools in lab environments.
+          </p>
+        </div>
+
+        <div class="card project-card">
+          <h3>Jigsaw Puzzle Game</h3>
+          <p>
+            Team software engineering project built with C++ and SFML,
+            featuring puzzle snapping, timers, audio settings, and save files.
+          </p>
+        </div>
+
+        <div class="card project-card">
+          <h3>Linux Mint Laptop Setup</h3>
+          <p>
+            Repurposed an older MacBook Pro with Linux Mint and troubleshot
+            Wi-Fi, software installation, system settings, and usability issues.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contact</h2>
+      <p>
+        I’m open to IT support, help desk, network technician, junior system
+        administrator, and junior cybersecurity opportunities.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:drakeeeverett@gmail.com">drakeeeverett@gmail.com</a>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Drake Everett. All rights reserved.</p>
+  </footer>
+
+  <button id="backToTop" class="back-to-top">↑</button>
+
+  <script src="script.js"></script>
+</body>
 </html>
