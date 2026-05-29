@@ -287,4 +287,25 @@ body {
   .card-grid {
     grid-template-columns: 1fr;
   }
+
+  .hero-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.hero-text {
+  max-width: 700px;
+}
+
+@media (max-width: 800px) {
+  .hero-layout {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
 }
