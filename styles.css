@@ -248,6 +248,11 @@ body {
   transform: translateY(-3px);
 }
 
+#grad-pic-cropped.png{
+  height: 300px;
+  width: auto;
+}
+
 .show {
   display: block;
 }
